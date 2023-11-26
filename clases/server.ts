@@ -1,9 +1,9 @@
-import express from 'express';
+import express = require('express');
 
 
 export default class Server {
     public app : express.Application;
-    public port: number = 3000;
+    public port: number = 4000;
 
     constructor() {
         this.app = express();
